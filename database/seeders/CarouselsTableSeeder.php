@@ -23,8 +23,8 @@ class CarouselsTableSeeder extends Seeder
             array (
                 'id_carousel' => 1,
                 'created_at' => '2023-07-04 19:34:25',
-                'updated_at' => '2023-10-26 12:51:11',
-                'image_url' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1698299466/PandanViewMandeh/AF1QipPbUTeNjEbixXR5hd3ZD3tk1XME5u0PJbGLnUPI_s0_vv0w8g.jpg',
+                'updated_at' => '2025-01-22 18:16:55',
+                'image_url' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1737569812/PandanViewMandeh/piagam_lx6kmv_avzx9c.avif',
                 'title' => 'Kantor Wilayah Kementerian Agama Prov. Sumatera Barat',
                 'active' => 'yes',
             ),
@@ -32,8 +32,8 @@ class CarouselsTableSeeder extends Seeder
             array (
                 'id_carousel' => 2,
                 'created_at' => '2023-07-04 19:38:03',
-                'updated_at' => '2023-10-26 13:21:31',
-                'image_url' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1698301278/PandanViewMandeh/AF1QipPnL7w8drYOmwydU_wAw0kehH4l2_dYsvFmp7PQ_s0_iwjlyo.jpg',
+                'updated_at' => '2025-01-22 18:17:16',
+                'image_url' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1737569833/PandanViewMandeh/image_750x_648fb061e6571_hke1ce_ivbgp7.avif',
                 'title' => 'Kanwil Kemenag Tampak Belakang',
                 'active' => 'yes',
             ),
@@ -41,8 +41,8 @@ class CarouselsTableSeeder extends Seeder
             array (
                 'id_carousel' => 3,
                 'created_at' => '2023-07-04 19:41:24',
-                'updated_at' => '2023-10-26 13:24:28',
-                'image_url' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1698301460/PandanViewMandeh/AF1QipPJb4rUS-R7njt4Q27YWTspJ10vyr578nIKd1go_s0_ubssbr.jpg',
+                'updated_at' => '2025-01-22 18:17:39',
+                'image_url' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1737569855/PandanViewMandeh/image_750x_64dddb4cc7b28_ubcssu_lgxpb7.avif',
                 'title' => 'Kanwil Tampak Samping',
                 'active' => 'yes',
             ),
@@ -50,8 +50,8 @@ class CarouselsTableSeeder extends Seeder
             array (
                 'id_carousel' => 4,
                 'created_at' => '2023-07-04 19:41:42',
-                'updated_at' => '2023-10-26 13:25:44',
-                'image_url' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1698301537/PandanViewMandeh/AF1QipPG5apkDszo3Yyg7ft2DoEHehtC9d2PtsPsTwQ_s0_zh3xvw.jpg',
+                'updated_at' => '2025-01-22 18:18:18',
+                'image_url' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1737569891/PandanViewMandeh/image_750x_629fed6566c53_jequ9z_vfnxbg.avif',
                 'title' => 'Kanwil Tampak Atas',
                 'active' => 'yes',
             ),
