@@ -43,10 +43,10 @@ class HomeController extends Controller
         $daerah_posts_chunk = $daerah_posts->chunk(4);
 
         return view('landing.v2.home', [
-            'title' => 'Web Utama Kantor Wilayah Kementerian Agama Provinsi Sumatera Barat',
-            'accountfb' => 'pandanviewmandeh',
-            'account' => 'pandanviewmandeh',
-            'channel' =>  '@pandanviewmandehofficial4919',
+            'title' => 'Web Berita Kantor Kementerian Agama Kab. Pesisir Selatan',
+            'accountfb' => 'kemenagpessel',
+            'account' => 'kemenagpessel',
+            'channel' =>  '@kemenagpesselofficial4919',
             'services' =>  $services,
             'carousels' =>  $carousels,
             'recent_posts' => $recent_posts,

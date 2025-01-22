@@ -7,10 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="Anil z" name="author">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Selamat datang di halaman Web Utama Kantor Wilayah Kementerian Agama Provinsi Sumatera Barat.">
-    <meta name="keywords"
-        content="Web, Pusat Informasi dan Dokumentasi, Kementerian Agama, Kabupaten Pesisir Selatan, informasi, dokumen, data, layanan, program, kebijakan, berita, transparansi.">
+    <meta name="description" content="Selamat datang di halaman Web Berita Kantor Kementerian Agama Kab. Pesisir Selatan.">
+    <meta name="keywords" content="Web, Pusat Informasi dan Dokumentasi, Kementerian Agama, Kabupaten Pesisir Selatan, informasi, dokumen, data, layanan, program, kebijakan, berita, transparansi.">
 
     <!-- SITE TITLE -->
     <title>@yield('title')</title>
