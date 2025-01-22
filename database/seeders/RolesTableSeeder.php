@@ -107,57 +107,57 @@ class RolesTableSeeder extends Seeder
         
 
         // Permissions
-        // $permissionMenu1 = Permission::create(['name' => 'menu-dashboard']);
-        // $permissionMenu2 = Permission::create(['name' => 'menu-reservations']);
-        // $permissionMenu3 = Permission::create(['name' => 'menu-information']);
-        // $permissionMenu4 = Permission::create(['name' => 'menu-data']);
-        // $permissionMenu5 = Permission::create(['name' => 'menu-blog']);
+        $permissionMenu1 = Permission::create(['name' => 'menu-dashboard']);
+        $permissionMenu2 = Permission::create(['name' => 'menu-reservations']);
+        $permissionMenu3 = Permission::create(['name' => 'menu-information']);
+        $permissionMenu4 = Permission::create(['name' => 'menu-data']);
+        $permissionMenu5 = Permission::create(['name' => 'menu-blog']);
 
-        // $permissionPage1_1 = Permission::create(['name' => 'page-dashboard']);
+        $permissionPage1_1 = Permission::create(['name' => 'page-dashboard']);
 
-        // $permissionPage2_1 = Permission::create(['name' => 'page-reservation-index']);
-        // $permissionPage2_2 = Permission::create(['name' => 'page-reservation-audits']);
-        // $permissionPage2_3 = Permission::create(['name' => 'page-reservation-deleted']);
+        $permissionPage2_1 = Permission::create(['name' => 'page-reservation-index']);
+        $permissionPage2_2 = Permission::create(['name' => 'page-reservation-audits']);
+        $permissionPage2_3 = Permission::create(['name' => 'page-reservation-deleted']);
 
-        // $permissionPage3_1 = Permission::create(['name' => 'page-information-services']);
-        // $permissionPage3_2 = Permission::create(['name' => 'page-information-products']);
-        // $permissionPage3_3 = Permission::create(['name' => 'page-information-galleries']);
-        // $permissionPage3_4 = Permission::create(['name' => 'page-information-carousels']);
+        $permissionPage3_1 = Permission::create(['name' => 'page-information-services']);
+        $permissionPage3_2 = Permission::create(['name' => 'page-information-products']);
+        $permissionPage3_3 = Permission::create(['name' => 'page-information-galleries']);
+        $permissionPage3_4 = Permission::create(['name' => 'page-information-carousels']);
 
-        // $permissionPage4_1 = Permission::create(['name' => 'page-data-messages']);
-        // $permissionPage4_2 = Permission::create(['name' => 'page-data-users']);
-        // $permissionPage4_3 = Permission::create(['name' => 'page-data-roles']);
+        $permissionPage4_1 = Permission::create(['name' => 'page-data-messages']);
+        $permissionPage4_2 = Permission::create(['name' => 'page-data-users']);
+        $permissionPage4_3 = Permission::create(['name' => 'page-data-roles']);
 
-        // $permissionPage5_1 = Permission::create(['name' => 'page-blog-categories']);
-        // $permissionPage5_2 = Permission::create(['name' => 'page-blog-tags']);
-        // $permissionPage5_3 = Permission::create(['name' => 'page-blog-posts']);
+        $permissionPage5_1 = Permission::create(['name' => 'page-blog-categories']);
+        $permissionPage5_2 = Permission::create(['name' => 'page-blog-tags']);
+        $permissionPage5_3 = Permission::create(['name' => 'page-blog-posts']);
 
 
-        // $super_administrator->givePermissionTo([
-        //     $permissionMenu1, $permissionMenu2, $permissionMenu3, $permissionMenu4, $permissionMenu5,
-        //     $permissionPage1_1,
-        //     $permissionPage2_1, $permissionPage2_2, $permissionPage2_3,
-        //     $permissionPage3_1, $permissionPage3_2, $permissionPage3_3, $permissionPage3_4,
-        //     $permissionPage4_1, $permissionPage4_2, $permissionPage4_3,
-        //     $permissionPage5_1, $permissionPage5_2, $permissionPage5_3
-        // ]);
+        $super_administrator->givePermissionTo([
+            $permissionMenu1, $permissionMenu2, $permissionMenu3, $permissionMenu4, $permissionMenu5,
+            $permissionPage1_1,
+            $permissionPage2_1, $permissionPage2_2, $permissionPage2_3,
+            $permissionPage3_1, $permissionPage3_2, $permissionPage3_3, $permissionPage3_4,
+            $permissionPage4_1, $permissionPage4_2, $permissionPage4_3,
+            $permissionPage5_1, $permissionPage5_2, $permissionPage5_3
+        ]);
 
-        // $administrator->givePermissionTo([
-        //     $permissionMenu1, $permissionMenu2, $permissionMenu3, $permissionMenu4, $permissionMenu5,
-        //     $permissionPage1_1,
-        //     $permissionPage2_1, $permissionPage2_3,
-        //     $permissionPage3_1, $permissionPage3_2, $permissionPage3_3, $permissionPage3_4,
-        //     $permissionPage4_1, $permissionPage4_2,
-        //     $permissionPage5_3
-        // ]);
+        $administrator->givePermissionTo([
+            $permissionMenu1, $permissionMenu2, $permissionMenu3, $permissionMenu4, $permissionMenu5,
+            $permissionPage1_1,
+            $permissionPage2_1, $permissionPage2_3,
+            $permissionPage3_1, $permissionPage3_2, $permissionPage3_3, $permissionPage3_4,
+            $permissionPage4_1, $permissionPage4_2,
+            $permissionPage5_3
+        ]);
 
-        // $staff->givePermissionTo([
-        //     $permissionMenu1, $permissionMenu2, $permissionMenu3, $permissionMenu4, $permissionMenu5,
-        //     $permissionPage1_1,
-        //     $permissionPage2_1, $permissionPage2_3,
-        //     $permissionPage3_1, $permissionPage3_2, $permissionPage3_3, $permissionPage3_4,
-        //     $permissionPage4_1,
-        //     $permissionPage5_3
-        // ]);
+        $staff->givePermissionTo([
+            $permissionMenu1, $permissionMenu2, $permissionMenu3, $permissionMenu4, $permissionMenu5,
+            $permissionPage1_1,
+            $permissionPage2_1, $permissionPage2_3,
+            $permissionPage3_1, $permissionPage3_2, $permissionPage3_3, $permissionPage3_4,
+            $permissionPage4_1,
+            $permissionPage5_3
+        ]);
     }
 }
