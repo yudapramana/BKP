@@ -37,6 +37,7 @@ CREATE TABLE `kabkota` (
 
 LOCK TABLES `kabkota` WRITE;
 INSERT INTO `kabkota` VALUES
+  ('001301', '1301 ', 'Kementerian Agama Kab. Pesisir Selatan', '1'),
 	('130101 ', '1301 ', 'MIN 01 Pesisir Selatan ', '1'),
 	('130102 ', '1301 ', 'MIN 02 Pesisir Selatan ', '1'),
 	('130103 ', '1301 ', 'MIN 03 Pesisir Selatan ', '1'),
