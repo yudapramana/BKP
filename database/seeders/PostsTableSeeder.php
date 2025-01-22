@@ -45,7 +45,7 @@ class PostsTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 2,
-                'category_id' => 1,
+                'category_id' => 2,
                 'old_id' => 0,
                 'user_id' => 2,
                 'cover' => 'https://res.cloudinary.com/dezj1x6xp/image/upload/v1694595047/PandanViewMandeh/image_1920x_65002dc69c43f_h6hrbk.jpg',
