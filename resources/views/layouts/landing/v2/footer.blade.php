@@ -15,7 +15,7 @@
                         </li>
                         <li>
                             <span class="ti-email"></span>
-                            <a href="mailto:kanwilsumbar@kemenag.go.id">kanwilsumbar@kemenag.go.id</a>
+                            <a href="mailto:kanwilsumbar@kemenag.go.id">pessel@kemenag.go.id</a>
                         </li>
                         <li>
                             <span class="ti-mobile"></span>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4 mb-lg-0 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
                     <h6 class="widget_title">Peta Kantor</h6>
-                    <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510629.2213989474!2d99.7828554734375!3d-0.9317269999999771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b92894aa00af%3A0x3453626808b42408!2sKanwil%20Kementerian%20Agama%20Provinsi%20Sumatera%20Barat!5e0!3m2!1sen!2sid!4v1694596922042!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.71249825432!2d100.57676297370804!3d-1.3490055356952486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd34d7968e3b8cf%3A0xa41477ffa19841c2!2sKementerian%20Agama%20Pesisir%20Selatan!5e0!3m2!1sen!2sid!4v1737559611729!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
