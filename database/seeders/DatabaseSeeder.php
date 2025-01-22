@@ -34,7 +34,7 @@ class DatabaseSeeder extends Seeder
         // $this->call(SlotsTableSeeder::class);
         $this->call(MenusTableSeeder::class);
         $this->call(MenuItemsTableSeeder::class);
-        $this->call(PostsTableSeeder::class);
+        // $this->call(PostsTableSeeder::class);
         $this->call(PostTagTableSeeder::class);
 
         $this->call(RefDataInstansiTableSeeder::class);
