@@ -511,7 +511,7 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::get('/contact', function () {
         return view('landing.v2.contact', [
-            'title' => 'Contact - Web Kemenag Kanwil Prov Sumbar',
+            'title' => 'Contact - Web Kemenag Kab. Pesisir Selatan',
             'accountfb' => 'Kanwil Kemenag Sumbar',
             'account' => 'Kanwil Kemenag Sumbar',
             'channel' =>  '@Kanwil Kemenag Sumbar'
@@ -526,7 +526,7 @@ Route::group(['middleware' => ['web']], function () {
     //     $filterTags = $galleries->pluck('filter_tag')->unique();
 
     //     return view('landing.gallery', [
-    //         'title' => 'Gallery Web Kemenag Kanwil Prov Sumbar',
+    //         'title' => 'Gallery Web Kemenag Kab. Pesisir Selatan',
     //         'accountfb' => 'Kanwil Kemenag Sumbar',
     //         'account' => 'Kanwil Kemenag Sumbar',
     //         'channel' =>  '@Kanwil Kemenag Sumbar',
@@ -538,7 +538,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/aboutus', function () {
 
         return view('landing.aboutus', [
-            'title' => 'Web Kemenag Kanwil Prov Sumbar - About Us',
+            'title' => 'Web Kemenag Kab. Pesisir Selatan - About Us',
             'accountfb' => 'Kanwil Kemenag Sumbar',
             'account' => 'Kanwil Kemenag Sumbar',
             'channel' =>  '@Kanwil Kemenag Sumbar'
@@ -573,7 +573,7 @@ Route::group(['middleware' => ['web']], function () {
         $services = \App\Models\Services::where('listed', 'yes')->get();
 
         return view('landing.all-services', [
-            'title' => 'Web Kemenag Kanwil Prov Sumbar - Semua Layanan',
+            'title' => 'Web Kemenag Kab. Pesisir Selatan - Semua Layanan',
             'accountfb' => 'pandanviewmandeh',
             'account' => 'pandanviewmandeh',
             'channel' =>  '@pandanviewmandehofficial4919',
@@ -608,7 +608,7 @@ Route::group(['middleware' => ['web']], function () {
         return view('landing.v2.summary', [
             'posts' => $posts,
             'year' => $year,
-            'title' => 'Ringkasan Ranking Berita - Web Kemenag Kanwil Prov Sumbar',
+            'title' => 'Ringkasan Ranking Berita - Web Kemenag Kab. Pesisir Selatan',
             'accountfb' => 'Kanwil Kemenag Sumbar',
             'account' => 'Kanwil Kemenag Sumbar',
             'channel' =>  '@Kanwil Kemenag Sumbar'
@@ -661,7 +661,7 @@ Route::group(['middleware' => ['web']], function () {
         })->take(3)->get();
 
         return view('landing.v2.blog', [
-            'title' => 'Blog Web Kemenag Kanwil Prov Sumbar',
+            'title' => 'Blog Web Kemenag Kab. Pesisir Selatan',
             'accountfb' => 'pandanviewmandeh',
             'account' => 'pandanviewmandeh',
             'channel' =>  '@pandanviewmandehofficial4919',
@@ -711,7 +711,7 @@ Route::group(['middleware' => ['web']], function () {
     //     })->take(3)->get();
 
     //     return view('landing.v2.news', [
-    //         'title' => 'Berita Web Kemenag Kanwil Prov Sumbar',
+    //         'title' => 'Berita Web Kemenag Kab. Pesisir Selatan',
     //         'accountfb' => 'pandanviewmandeh',
     //         'account' => 'pandanviewmandeh',
     //         'channel' =>  '@pandanviewmandehofficial4919',

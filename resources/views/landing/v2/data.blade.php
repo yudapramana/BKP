@@ -8,7 +8,7 @@
     <meta name="title" content="{{ $keterangan }}">
     <meta name="description" content="{{ $keterangan }}" />
     <meta name="keywords" content="PPID Kemenag, PPID, Komisi Informasi" />
-    <meta name="author" content="Web Kemenag Kanwil Prov Sumbar" />
+    <meta name="author" content="Web Kemenag Kab. Pesisir Selatan" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="revisit-after" content="1 Days" />
 
@@ -94,7 +94,7 @@
                                                     {{ $dataFile->instansi
                                                         ? $dataFile->instansi->name
                                                         : 'Tidak ada
-                                                                                                                                                                                                                                                                Instansi' }}
+                                                                                                                                                                                                                                                                                                                    Instansi' }}
                                                 </div>
                                             </div>
                                         </div>
@@ -107,10 +107,10 @@
                                                     {{ $dataFile->klasifikasi
                                                         ? $dataFile->klasifikasi->name
                                                         : 'Tidak ada
-                                                                                                                                                                                                                                                                Klasifikasi' }} - {{ $dataFile->subklasifikasi
+                                                                                                                                                                                                                                                                                                                    Klasifikasi' }} - {{ $dataFile->subklasifikasi
                                                         ? $dataFile->subklasifikasi->name
                                                         : 'Tidak ada
-                                                                                                                                                                                                                                                                Subklasifikasi' }}
+                                                                                                                                                                                                                                                                                                                    Subklasifikasi' }}
                                                     <hr>
                                                     <button class="btn btn-xs btn-primary">{{ $dataFile->kategori->name }}</button>
                                                 </div>

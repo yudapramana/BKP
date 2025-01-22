@@ -4,73 +4,72 @@
 
 @section('_styles')
 
-{{-- Primary Meta Tags --}}
-<meta name="title" content="{{$title}}">
-<meta name="description" content="{{$title}}" />
-<meta name="keywords" content="PPID, PPID Kementerian Agama, Web Kemenag Kanwil Prov Sumbar, Komisi Informasi" />
-<meta name="author" content="Web Kemenag Kanwil Prov Sumbar" />
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-<meta name="revisit-after" content="1 Days" />
+    {{-- Primary Meta Tags --}}
+    <meta name="title" content="{{ $title }}">
+    <meta name="description" content="{{ $title }}" />
+    <meta name="keywords" content="PPID, PPID Kementerian Agama, Web Kemenag Kab. Pesisir Selatan, Komisi Informasi" />
+    <meta name="author" content="Web Kemenag Kab. Pesisir Selatan" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="revisit-after" content="1 Days" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:site_name" content="{{$title}}">
-<meta property="og:title" content="{{$title}}">
-<meta property="og:locale" content="id_ID">
-<meta property="og:description" content="Web - {{$title}}">
-<meta property="og:image" content="{{ asset('sailor/img/logo.png') }}" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name" content="{{ $title }}">
+    <meta property="og:title" content="{{ $title }}">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:description" content="Web - {{ $title }}">
+    <meta property="og:image" content="{{ asset('sailor/img/logo.png') }}" />
 
-<meta property="og:type" content=website />
-<meta property="og:url" content="{{ URL::current() }}" />
+    <meta property="og:type" content=website />
+    <meta property="og:url" content="{{ URL::current() }}" />
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="{{$title}}" />
-<meta name="twitter:title" content="{{$title}}" />
-<meta name="twitter:description" content="Web - {{$title}}">
-<meta name="twitter:image" content="{{ asset('sailor/img/logo.png') }}" />
-<meta property="twitter:url" content="{{ URL::current() }}">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="{{ $title }}" />
+    <meta name="twitter:title" content="{{ $title }}" />
+    <meta name="twitter:description" content="Web - {{ $title }}">
+    <meta name="twitter:image" content="{{ asset('sailor/img/logo.png') }}" />
+    <meta property="twitter:url" content="{{ URL::current() }}">
 
 
-<link rel="canonical" href="{{ URL::current() }}" />
-<link rel="alternate" hreflang="en-US" href="{{ URL::current() }}" />
-<link rel="shortcut icon" type="image/png" href="{{ URL::current() }}" />
+    <link rel="canonical" href="{{ URL::current() }}" />
+    <link rel="alternate" hreflang="en-US" href="{{ URL::current() }}" />
+    <link rel="shortcut icon" type="image/png" href="{{ URL::current() }}" />
 
-<style>
-    .greenext {
-        color: #29b477;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
-</style>
+    <style>
+        .greenext {
+            color: #29b477;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    </style>
 @endsection
 
 @section('content')
 
-<hr class="pt-0 mt-0">
+    <hr class="pt-0 mt-0">
 
-<!-- START SECTION CONTACT -->
+    <!-- START SECTION CONTACT -->
 
-<div class="container">
+    <div class="container">
 
-    <section class="py-0 my-0">
+        <section class="py-0 my-0">
 
-        <div class="row py-0 my-0">
-            <div class="col-sm-12 py-0 my-0 wow fadeInLeft animated">
+            <div class="row py-0 my-0">
+                <div class="col-sm-12 py-0 my-0 wow fadeInLeft animated">
 
-                <h3 class="greenext">Permohonan Informasi</h3>
+                    <h3 class="greenext">Permohonan Informasi</h3>
+
+
+                </div>
 
 
             </div>
+        </section>
 
+        <section class="py-0 my-0">
 
-        </div>
-    </section>
-
-    <section class="py-0 my-0">
-
-        {{-- <form action="{{ route('permohonan.store') }}"> --}}
-            <form class="needs-validation" method="post" id="permohonanForm" action={{ route('permohonan.store') }}
-                role="form">
+            {{-- <form action="{{ route('permohonan.store') }}"> --}}
+            <form class="needs-validation" method="post" id="permohonanForm" action={{ route('permohonan.store') }} role="form">
                 {{ csrf_field() }}
                 <hr class="styledhr">
                 <div class="row">
@@ -101,28 +100,24 @@
 
                         <div class="form-group">
                             <label for="nomor_identitas">Nomor Identitas / Nama Instansi</label>
-                            <input type="text" class="form-control" id="nomor_identitas" name="nomor_identitas"
-                                aria-describedby="nomor_identitas" placeholder="Nomor Identitas / Nama Instansi">
+                            <input type="text" class="form-control" id="nomor_identitas" name="nomor_identitas" aria-describedby="nomor_identitas" placeholder="Nomor Identitas / Nama Instansi">
                             {{-- <small id="nomor_identitas" class="form-text text-muted">Kami tidak akan pernah
                                 membagikan Identitas Anda kepada orang lain.</small> --}}
                         </div>
 
                         <div class="form-group">
                             <label for="nama_pemohon">Nama Pemohon</label>
-                            <input type="text" class="form-control" id="nama_pemohon" name="nama_pemohon"
-                                aria-describedby="nama_pemohon" placeholder="Nama Pemohon">
+                            <input type="text" class="form-control" id="nama_pemohon" name="nama_pemohon" aria-describedby="nama_pemohon" placeholder="Nama Pemohon">
                         </div>
 
                         <div class="form-group">
                             <label for="email">Email Pemohon</label>
-                            <input type="email" class="form-control" id="email" name="email" aria-describedby="email"
-                                placeholder="Email Pemohon">
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="email" placeholder="Email Pemohon">
                         </div>
 
                         <div class="form-group">
                             <label for="no_telp">Nomor Telpon</label>
-                            <input type="text" class="form-control" id="no_telp" name="no_telp"
-                                aria-describedby="no_telp" placeholder="Nomor Telepon Pemohon">
+                            <input type="text" class="form-control" id="no_telp" name="no_telp" aria-describedby="no_telp" placeholder="Nomor Telepon Pemohon">
                         </div>
 
                         <div class="form-group">
@@ -132,8 +127,7 @@
 
                         <div class="form-group">
                             <label for="pekerjaan">Pekerjaan</label>
-                            <input type="text" class="form-control" id="pekerjaan" name="pekerjaan"
-                                aria-describedby="pekerjaan" placeholder="Pekerjaan Pemohon">
+                            <input type="text" class="form-control" id="pekerjaan" name="pekerjaan" aria-describedby="pekerjaan" placeholder="Pekerjaan Pemohon">
                         </div>
 
 
@@ -153,14 +147,12 @@
 
                         <div class="form-group">
                             <label for="rincian_informasi">Rincian Informasi</label>
-                            <textarea class="form-control" name="rincian_informasi" id="rincian_informasi"
-                                rows="3"></textarea>
+                            <textarea class="form-control" name="rincian_informasi" id="rincian_informasi" rows="3"></textarea>
                         </div>
 
                         <div class="form-group">
                             <label for="tujuan_penggunaan_informasi">Tujuan Penggunaan Informasi</label>
-                            <textarea class="form-control" name="tujuan_penggunaan_informasi"
-                                id="tujuan_penggunaan_informasi" rows="3"></textarea>
+                            <textarea class="form-control" name="tujuan_penggunaan_informasi" id="tujuan_penggunaan_informasi" rows="3"></textarea>
                         </div>
 
                         <div class="form-group">
@@ -175,8 +167,7 @@
 
                         <div class="form-group">
                             <label for="cara_memperoleh_informasi">Cara Memperoleh Informasi</label>
-                            <select class="form-control" id="cara_memperoleh_informasi"
-                                name="cara_memperoleh_informasi">
+                            <select class="form-control" id="cara_memperoleh_informasi" name="cara_memperoleh_informasi">
                                 <option value="">Pilih</option>
                                 <option value="tradisional">Melihat / Mendengar / Membaca / Mencatat</option>
                                 <option value="elektronik">Mendapatkan salinan informasi secara Elektronik</option>
@@ -206,15 +197,13 @@
                             <label for="Captcha">Captcha</label>
                             <div class="captcha">
                                 <span>{!! captcha_img() !!}</span>
-                                <button type="button" class="btn btn-sm btn-danger" class="reload" id="reload"
-                                    style="font-size:large">
+                                <button type="button" class="btn btn-sm btn-danger" class="reload" id="reload" style="font-size:large">
                                     &#x21bb;
                                 </button>
                             </div>
                         </div>
                         <div class="form-group mb-4">
-                            <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha"
-                                name="captcha">
+                            <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
                         </div>
 
                     </div>
@@ -228,25 +217,25 @@
             </form>
 
 
-    </section>
+        </section>
 
-</div>
-<!-- END SECTION CONTACT -->
+    </div>
+    <!-- END SECTION CONTACT -->
 
 
 @endsection
 
 
 @section('_scripts')
-{{-- No Data --}}
+    {{-- No Data --}}
 
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="https://upload-widget.cloudinary.com/global/all.js" type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://upload-widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
 
-<script>
-    // Cloudinary Widget
+    <script>
+        // Cloudinary Widget
         var myWidget = cloudinary.createUploadWidget({
             cloudName: 'kominfo-sb',
             uploadPreset: 'zwco5rur',
@@ -488,7 +477,7 @@
                 $(element).removeClass('is-invalid');
             }
         });
-</script>
+    </script>
 
 
 @endsection
